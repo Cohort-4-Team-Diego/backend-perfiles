@@ -1,27 +1,27 @@
 {
-  "name": "backend-perfiles",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Cohort-4-Team-Diego/backend-perfiles.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Cohort-4-Team-Diego/backend-perfiles/issues"
-  },
-  "homepage": "https://github.com/Cohort-4-Team-Diego/backend-perfiles#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.9.24",
-    "nodemon": "^2.0.4"
-  },
-  "devDependencies": {
-    "morgan": "^1.10.0"
-  }
+	"name": "backend-perfiles",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Cohort-4-Team-Diego/backend-perfiles.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Cohort-4-Team-Diego/backend-perfiles/issues"
+	},
+	"homepage": "https://github.com/Cohort-4-Team-Diego/backend-perfiles#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongoose": "^5.9.24"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4",
+		"morgan": "^1.10.0"
+	}
 }

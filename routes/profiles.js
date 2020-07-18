@@ -2,17 +2,11 @@ const express = require('express')
 const router = express.Router()
 const profile = require('../controllers/profiles')
 
-// router.get('/profiles', (req, res) => {
-//    res.send('funcionado')
-// })
-
-
-// router.get('/', (req, res) => {
-//   res.send('funcionadno')
-// })
+router.get('/', profile.getProfiles)
+router.get('/:id', profile.getProfile)
 router.post('/', profile.postProfile)
-// router.patch('/:id')
-// router.delete('/:id')
+router.patch('/:id', profile.updateProfile)
+router.delete('/:id', profile.deleteProfile)
 
 
 module.exports = router
