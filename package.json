@@ -17,6 +17,7 @@
 	},
 	"homepage": "https://github.com/Cohort-4-Team-Diego/backend-perfiles#readme",
 	"dependencies": {
+		"cors": "^2.8.5",
 		"express": "^4.17.1",
 		"mongoose": "^5.9.24"
 	},
